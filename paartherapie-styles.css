@@ -1,0 +1,47 @@
+:root {
+    --pt-bg: #fff3e0;
+    --pt-accent: #ff6f00;
+}
+
+body {
+    background-color: var(--pt-bg);
+}
+
+.hero h1 {
+    color: var(--pt-accent);
+}
+
+.program-details {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.program-details ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.methods {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.method-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.method-card h3 {
+    color: var(--pt-accent);
+}
